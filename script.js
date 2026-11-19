@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const b=document.getElementById('reveal');const m=document.getElementById('secretMessage');if(b&&m)b.addEventListener('click',()=>{m.classList.add('show');b.textContent='surprise unlocked ♡';b.disabled=true;});});
